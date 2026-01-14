@@ -51,7 +51,7 @@
               half4(grayscale, grayscale, grayscale,1);
             half4 outputColor = 
               lerp(monochromeColor,output, saturation);
-             
+
             //return outputColor;
             outputColor = 
             (outputColor - 0.5) * contrast + 0.5;
